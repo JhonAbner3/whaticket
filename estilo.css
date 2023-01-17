@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.izquierda {
+    background: #FFFFFF;
+    height: 100vh;
+    width: 50%;
+}
+
+.derecha {
+    background: url(imag.png);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+}
+
+#pantalla-dividida {
+    display: flex;
+}
+
+.imag {
+    position: absolute;
+    width: 171px;
+    height: 49px;
+    left: 155px;
+    top: 75px;
+}
+
+.title {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 68px;
+  letter-spacing: 0px;
+  text-align: left;
+  position: absolute;
+  height: 167px;
+  width: 389px;
+  left: 93px;
+  top: 170px;
+  border-radius: nullpx;
+  color: #3489FF;
+
+}
+
+.parrafo { 
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    text-align: left;  
+    color: #404040;
+     
+    position: absolute;
+    width: 350px;
+    height: 49px;
+    left: 110px;
+    top: 250px;
+}
+
+.parrafo- {
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    margin: auto;  
+    color: #333333;
+     
+    position: absolute;
+    width: 350px;
+    height: 49px;
+    left: 110px;
+    top: 330px;
+}
+
+.form-register {
+    width: 380px;
+    padding: 30px;
+    margin: 70px;
+    margin-top: 335px;
+    font-family: 'calibri';
+}
+
+.controls {
+    width: 100%;
+    background: #FFFFFF;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #D1D1D1;
+
+}
+
+.contraseña {
+   height: 40px;
+   left: 6.39%;
+   right: 81.11%;
+   color: #3489FF;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 28px;
+   text-decoration: none;
+}
+
+.botons {
+    width: 100%;
+    background: #3489FF;
+    border: none;
+    padding: 15px;
+    color: white;
+    border-radius: 80px;
+    margin: 30px 0;
+    font-weight: 750;
+}
+
+.bill {
+    color: #000000;
+    position: absolute;
+    /* width: 350px; */
+    height: 49px;
+    left: 165px;
+    top: 600px;
+    text-decoration: none;
+}
